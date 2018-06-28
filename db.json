@@ -1,0 +1,204 @@
+{
+  "professionalTypes": [{
+      "code": "P",
+      "name": "Pintor"
+    },
+    {
+      "code": "E",
+      "name": "Electricista"
+    }
+  ],
+  "professionals": [{
+      "code": "P",
+      "profession": "pintor",
+      "name": "Fernando Sarabia",
+      "avatar": "http://i.pravatar.cc/50?img=3",
+      "address": "Carrer Pare Ignasi Fiol, 9. Palma de Mallorca",
+      "rating": "4",
+      "city": "Palma de Mallorca",
+      "cityCode": "PM",
+      "areaCode": "EF",
+      "opinions": "20",
+      "hasOpinions": true,
+      "certified": true
+    },
+    {
+      "code": "P",
+      "profession": "pintor",
+      "name": "Carlos Garcia",
+      "avatar": "http://i.pravatar.cc/50?img=68",
+      "address": "Carrer Joan Miro, 6. Palma de Mallorca",
+      "rating": "2",
+      "city": "Palma de Mallorca",
+      "cityCode": "PM",
+      "areaCode": "ET",
+      "opinions": "0",
+      "hasOpinions": false,
+      "certified": false
+    },
+    {
+      "code": "E",
+      "profession": "electricista",
+      "name": "Rafael Miranda",
+      "avatar": "http://i.pravatar.cc/50?img=33",
+      "address": "Eusebi Estada 66. Palma de Mallorca",
+      "cityCode": "PM",
+      "areaCode": "STC",
+      "rating": "5",
+      "city": "Palma de Mallorca",
+      "opinions": "79",
+      "hasOpinions": true,
+      "certified": true
+    },
+    {
+      "code": "E",
+      "profession": "electricista",
+      "name": "Leonardo Arrabal",
+      "avatar": "http://i.pravatar.cc/50?img=33",
+      "address": "Avinguda Rossello 66. Palma de Mallorca",
+      "cityCode": "PM",
+      "areaCode": "STC",
+      "rating": "4",
+      "city": "Palma de Mallorca",
+      "opinions": "0",
+      "hasOpinions": false,
+      "certified": true
+    },
+    {
+      "code": "E",
+      "profession": "electricista",
+      "name": "Carlos Mendizabal",
+      "avatar": "http://i.pravatar.cc/50?img=61",
+      "address": "Carrer Pascual Ribot 66. Palma de Mallorca",
+      "cityCode": "PM",
+      "areaCode": "EF",
+      "rating": "1",
+      "city": "Palma de Mallorca",
+      "opinions": "0",
+      "hasOpinions": false,
+      "certified": false
+    },
+    {
+      "code": "P",
+      "profession": "pintor",
+      "name": "Antonio Gomez",
+      "avatar": "http://i.pravatar.cc/50?img=69",
+      "address": "Carrer Fabrica, 56. Palma de Mallorca",
+      "cityCode": "PM",
+      "areaCode": "STC",
+      "rating": "5",
+      "city": "Palma de Mallorca",
+      "opinions": "9",
+      "hasOpinions": true,
+      "certified": true
+    },
+    {
+      "code": "E",
+      "profession": "electricista",
+      "name": "Carles Rubi",
+      "avatar": "http://i.pravatar.cc/50?img=50",
+      "address": "Carrer Alexandre Rossello 23. Barcelona",
+      "cityCode": "BCN",
+      "areaCode": "EX",
+      "rating": "4",
+      "city": "Barcelona",
+      "opinions": "0",
+      "hasOpinions": false,
+      "certified": false
+    },
+    {
+      "code": "E",
+      "profession": "electricista",
+      "name": "Mario Alberti",
+      "avatar": "http://i.pravatar.cc/50?img=56",
+      "address": "Avinguda Palaudaries 56. Barcelona",
+      "cityCode": "BCN",
+      "areaCode": "SA",
+      "rating": "3",
+      "city": "Barcelona",
+      "opinions": "75",
+      "hasOpinions": true,
+      "certified": false
+    },
+    {
+      "code": "P",
+      "profession": "pintor",
+      "name": "Oriol Miranda",
+      "avatar": "http://i.pravatar.cc/50?img=65",
+      "address": "Carrer Pare Ignasi Fiol, 9. Barcelona",
+      "cityCode": "BCN",
+      "areaCode": "EX",
+      "rating": "5",
+      "city": "Barcelona",
+      "opinions": "0",
+      "hasOpinions": false,
+      "certified": false
+    },
+    {
+      "code": "P",
+      "profession": "pintor",
+      "name": "Pere Canyelles",
+      "avatar": "http://i.pravatar.cc/50?img=52",
+      "address": "Carrer Joan Miro, 6. Barcelona",
+      "cityCode": "BCN",
+      "areaCode": "PS",
+      "rating": "3",
+      "city": "Barcelona",
+      "opinions": "75",
+      "hasOpinions": true,
+      "certified": false
+    },
+    {
+      "code": "P",
+      "profession": "pintor",
+      "name": "Rafael Ramirez",
+      "avatar": "http://i.pravatar.cc/50?img=60",
+      "address": "Carrer Fabrica, 56. Barcelona",
+      "cityCode": "BCN",
+      "areaCode": "SA",
+      "rating": "1",
+      "city": "Barcelona",
+      "opinions": "65",
+      "hasOpinions": true,
+      "certified": true
+    }
+  ],
+  "cities": [{
+      "code": "PM",
+      "name": "Palma de Mallorca"
+    },
+    {
+      "code": "BCN",
+      "name": "Barcelona"
+    }
+  ],
+  "areas": [{
+      "code": "EF",
+      "city": "PM",
+      "name": "Es Forti"
+    },
+    {
+      "code": "STC",
+      "city": "PM",
+      "name": "Santa Catalina"
+    },
+    {
+      "code": "ET",
+      "city": "PM",
+      "name": "El Terreno"
+    },
+    {
+      "code": "PS",
+      "city": "BCN",
+      "name": "Poble Sec"
+    }, {
+      "code": "SA",
+      "city": "BCN",
+      "name": "Sant Andreu"
+    }, {
+      "code": "EX",
+      "city": "BCN",
+      "name": "Eixample"
+    }
+  ]
+}

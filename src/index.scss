@@ -1,0 +1,287 @@
+$primary-color: #E64A19;
+$secondary-color: #FFCCBC;
+$action-color: #757575;
+$action-hover: #9E9E9E;
+body {
+  margin: 0;
+  .container {
+    overflow: hidden;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    .general-button {
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      background-color: $action-color;
+      color: white;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+      border-radius: 2px;
+      cursor: pointer;
+      &:hover {
+        background-color: $action-hover;
+      }
+    }
+    .sticky__searcher {
+      box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+      background-color: white;
+      border: 5px solid $secondary-color;
+      color: $primary-color;
+      padding: 10px;
+      width: calc(100% - 30px);
+      cursor: pointer;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+      z-index: 1;
+      .sticky__searcher--inner {
+        background-color: white;
+        padding: 3px;
+      }
+      &.visible {
+        display: block;
+      }
+      .fa-search {
+        position: absolute;
+        right: 30px;
+        &:before {
+          color: #e67e29;
+        }
+      }
+    }
+    .home__wrapper {
+      .MuiAppBar-colorPrimary-7 {
+        background-color: $primary-color;
+      }
+      .app__bar {
+        >div {
+          margin: 0;
+        }
+      }
+      .home__main {
+        margin: 10px;
+        .searcherTrigger__wrapper {
+          margin-top: 30px;
+          .searcherTrigger__input {
+            width: 100%;
+            padding: 5px 0;
+            margin: 15px 0;
+            color: $action-color;
+            border-bottom: 1px solid lightgray;
+            &:first-child {
+              cursor: pointer;
+            }
+          }
+        }
+        .main-text__wrapper {
+          .main-text__title {
+            font-size: 20px;
+          }
+          .main-text__text {
+            font-size: 13px;
+            margin-top: 10px;
+          }
+        }
+        .categories {
+          margin: 20px 0;
+          .main-text__wrapper {
+            >div {
+              border-bottom: 2px solid $primary-color;
+              cursor: pointer;
+            }
+          }
+          .categories__title {
+            font-size: 16px;
+            margin-left: 10px;
+          }
+          .horizontal-scroll__wrapper {
+            overflow: auto;
+            white-space: nowrap;
+            div {
+              display: inline-block;
+              .main-text__text {
+                font-size: 12px;
+                color: $primary-color;
+                font-weight: 600;
+                padding: 20px 10px;
+                margin-top: 0;
+              }
+            }
+          }
+        }
+        .fake__content {
+          .img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            &.img1 {
+              background-image: url('./images/scroll1.png');
+              height: 400px;
+            }
+            &.img2 {
+              background-image: url('./images/scroll2.png');
+              height: 535px;
+            }
+            &.img3 {
+              background-image: url('./images/scroll3.png');
+              height: 500px;
+            }
+            &.img4 {
+              background-image: url('./images/scroll4.png');
+              height: 480px;
+            }
+            &.img5 {
+              background-image: url('./images/scroll5.png');
+              height: 470px;
+            }
+            &.img6 {
+              background-image: url('./images/scroll6.png');
+              height: 520px;
+            }
+            &.img7 {
+              background-image: url('./images/scroll7.png');
+              height: 465px;
+            }
+            &.img8 {
+              background-image: url('./images/scroll8.png');
+              height: 465px;
+            }
+          }
+        }
+      }
+    }
+    .form__wrapper {
+      .MuiAppBar-colorPrimary-69 {
+        background-color: $primary-color;
+      }
+      .app__bar {
+        .fa-times {
+          margin-right: 20px;
+        }
+        span {
+          font-size: 20px;
+        }
+      }
+      .autocomplete__wrapper {
+        padding: 20px;
+      }
+      .general-button {
+        margin: 30px 0;
+      }
+    }
+    .results__wrapper {
+      .results__main {
+        margin: 10px;
+        .filter__wrapper {
+          padding-top: 40px;
+          form {
+            width: 65%;
+            display: inline-block;
+            vertical-align: top;
+            .filter__title,
+            label {
+              font-size: 13px;
+            }
+            .filter__title {
+              font-weight: 600;
+              margin-bottom: 5px;
+            }
+            .general-button {
+              margin-top: 10px;
+              width: 70%;
+              font-size: 13px;
+            }
+          }
+          .map__toggle {
+            width: 30%;
+            display: inline-block;
+            vertical-align: top;
+          }
+        }
+        .card-list__wrapper {
+          padding-top: 15px;
+          .card__wrapper {
+            cursor: auto;
+            .card__up {
+              .card__profession {
+                font-size: 13px;
+                color: gray;
+                font-weight: 500;
+                margin-bottom: 10px;
+                display: inline-block;
+                vertical-align: top;
+              }
+              .card__avatar {
+                border-radius: 50%;
+                display: inline-block;
+                position: absolute;
+                right: 15px;
+                vertical-align: top;
+                border: 2px solid gray;
+              }
+              .card__main {
+                margin-bottom: 10px;
+                .card__name {
+                  font-size: 18px;
+                  font-weight: 500;
+                  margin-bottom: 5px;
+                }
+                .card__rating {
+                  font-size: 13px;
+                  font-weight: 500;
+                  .card__stars {
+                    display: inline;
+                    color: #e67e29;
+                    margin-right: 5px;
+                  }
+                }
+                .card__certified {
+                  color: gray;
+                  margin: 9px 0;
+                  .certificate__text {
+                    font-size: 12px;
+                    margin-left: 10px;
+                  }
+                }
+              }
+              .card__secondary {
+                border-top: 1px solid #e6e4e4;
+                border-bottom: 1px solid #e6e4e4;
+                .card__address,
+                .card__opinions {
+                  font-size: 13px;
+                  font-weight: 500;
+                  margin: 7px 0;
+                  padding-left: 5px;
+                  .fa {
+                    margin-right: 5px;
+                    &:before {
+                      color: $primary-color;
+                    }
+                  }
+                }
+                .card__address {
+                  border-top: 1px solid #e6e4e4;
+                  padding-top: 7px;
+                }
+              }
+            }
+            .card__down {
+              margin-top: 20px;
+              width: 100px;
+              text-align: center;
+              .card__button {
+                font-size: 14px;
+                padding: 10px 5px;
+                background-color: #ffe6c1;
+                border-radius: 3px;
+                cursor: pointer;
+                &:hover {
+                  background-color: $secondary-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
